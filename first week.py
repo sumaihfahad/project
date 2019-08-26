@@ -104,6 +104,15 @@ print(random.randrange(1,10))
 
 
 
+x,y,z='apple','orange','limon'
+print('basket=',x,y,z)
+
+basket = x + y + z  # >> I have a problem here 
+print(basket)
+
+
+
+
 
 
 
