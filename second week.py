@@ -4,7 +4,6 @@ y = int(5.3)
 z = int('2')
 print(x , y , z , sep='\n')  # sep=('\n') using to print variables in different line
 
-
 x , y , z , w = float(4) , float(3.1) , float('3') , float('3.2')
 print(x,y,z,w,sep='\n')
 
@@ -35,7 +34,7 @@ print(A)
 print(A.strip())
 print(A.strip('ld'))
 print(A.strip('() ld')) # ^^
-print(A.strip('rl')) #-_-
+print(A.strip('rl')) #-_- not work
 
 print(B.strip('s')) # just remove s from end 
 print(B.strip()) # ^^
@@ -54,6 +53,15 @@ print(A.replace('H','S'))
 
 print(A.split('e'))
 print(A.split(' '))
+
+
+# Exercises for myself : 
+x,y,z=' Sumaih',' Fahad',' Alshareef'
+MyName = x + y + z
+print(MyName.strip())
+print('My name is'+ MyName)
+# ^^ Good job ^-^
+
 
 
 

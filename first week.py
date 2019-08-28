@@ -25,6 +25,9 @@ print(x)
 x , y , z ='Orange' , 'Banana','Cherry'
 print(x,y,z)
 
+x , y , z ='Orange' , ' Banana',' Cherry'
+print(x+y+z)
+
 x=y=z='Orange'
 print(x,y,z)
 
@@ -107,8 +110,13 @@ print(random.randrange(1,10))
 x,y,z='apple','orange','limon'
 print('basket=',x,y,z)
 
-basket = x + y + z  # >> I have a problem here 
+basket = x + y + z  # >> I have a problem here >> I solved it ^^ in line 115 by add a space before the word
 print(basket)
+x,y,z=' apple',' orange',' limon'
+basket = x + y + z
+print(basket)
+print('basket is'+ basket)
+
 
 
 
