@@ -23,4 +23,3 @@ print(list4)
 # operator (+)
 list5 = floatNumbers + numbers
 print(list5)
-
